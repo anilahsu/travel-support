@@ -1,0 +1,24 @@
+/*
+  refer - https://firstlayout.net/use-noto-sans-japanese-fast/
+*/
+
+@font-face {
+    font-family: 'Noto Sans CJK JP Subset';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans CJK JP'),
+         local('NotoSansCJKjp-Regular'),
+         local('NotoSansJP-Regular'),
+         url('/fonts/NotoSansCJKjp-Regular.woff2') format('woff2'),
+         url('/fonts/NotoSansCJKjp-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans CJK JP Subset';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSansCJKjp-Bold'),
+         local('NotoSansJP-Bold'),
+         url('/fonts/NotoSansCJKjp-Bold.woff2') format('woff2'),
+         url('/fonts/NotoSansCJKjp-Bold.woff') format('woff');
+}
