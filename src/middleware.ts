@@ -32,6 +32,8 @@ export function middleware(request: NextRequest) {
     [
       '/manifest.json',
       '/favicon.ico',
+      '/images/mail.svg',
+      '/images/book.svg',
       // Your other files in `public`
       '/fonts/NotoSansCJKjp-Regular.woff2',
       '/fonts/NotoSansCJKjp-Regular.woff',
