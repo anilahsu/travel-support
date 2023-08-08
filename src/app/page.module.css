@@ -48,3 +48,50 @@
   width: 195px;
   height: auto;
 }
+
+.menuContainer {
+  background-color: var(--foreground);
+  padding: 24px 16px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menuItem {
+  background-color: var(--background);
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.iconContainer {
+  padding: 8px;
+  background-color: var(--foreground);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+}
+
+.itemTitle {
+  color: var(--main-text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.itemDescription {
+  color: var(--sub-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
