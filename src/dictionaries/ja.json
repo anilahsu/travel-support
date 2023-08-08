@@ -1,6 +1,32 @@
 {
   "logo": {
-    "src": "/images/logo",
     "alt": "ポケットチェンジロゴ"
+  },
+  "globeIcon": {
+    "alt": "言語選択用の地球アイコン"
+  },
+  "kioskImage": {
+    "alt": "ポケットチェンジマシン"
+  },
+  "menuList": [
+    {
+      "icon": {
+        "src": "/images/book.svg",
+        "alt": "ユーザーガイドの本のアイコン"
+      },
+      "title": "使い方ガイド",
+      "description": "ポケットチェンジの使い方のご説明"
+    },
+    {
+      "icon": {
+        "src": "/images/mail.svg",
+        "alt": "電子メールサポートのメールアイコン"
+      },
+      "title": "サポートにメール",
+      "description": "ポケットチェンジのサポートにメールで連絡"
+    }
+  ],
+  "chevron": {
+    "alt": "山形右アイコン"
   }
 }

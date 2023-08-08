@@ -1,6 +1,32 @@
 {
   "logo": {
-    "src": "/images/logo",
-    "alt": "Pocket Change Logo"
+    "alt": "Pocket Change logo"
+  },
+  "globeIcon": {
+    "alt": "Globe icon for language selection"
+  },
+  "kioskImage": {
+    "alt": "Pocket Change kiosk"
+  },
+  "menuList": [
+    {
+      "icon": {
+        "src": "/images/book.svg",
+        "alt": "Book icon for user guide"
+      },
+      "title": "User Guide",
+      "description": "Instructions on how to use Pocket Change"
+    },
+    {
+      "icon": {
+        "src": "/images/mail.svg",
+        "alt": "Mail icon for email support"
+      },
+      "title": "Email Support",
+      "description": "Contact Pocket Change's support via email"
+    }
+  ],
+  "chevron": {
+    "alt": "chevron right icon"
   }
 }
