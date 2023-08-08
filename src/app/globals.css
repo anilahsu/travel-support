@@ -5,8 +5,8 @@
   font-weight: 400;
   src: local('NotoSansCJKjp-Regular'),
        local('NotoSansCJKjp-Regular'),
-       url('/src/fonts/NotoSansCJKjp-Regular.woff2') format('woff2'),
-       url('/src/fonts/NotoSansCJKjp-Regular.woff') format('woff');
+       url('/fonts/NotoSansCJKjp-Regular.woff2') format('woff2'),
+       url('/fonts/NotoSansCJKjp-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -15,8 +15,8 @@
   font-weight: 700;
   src: local('NotoSansCJKjp-Bold'),
        local('NotoSansCJKjp-Bold'),
-       url('/src/fonts/NotoSansCJKjp-Bold.woff2') format('woff2'),
-       url('/src/fonts/NotoSansCJKjp-Bold.woff') format('woff');
+       url('/fonts/NotoSansCJKjp-Bold.woff2') format('woff2'),
+       url('/fonts/NotoSansCJKjp-Bold.woff') format('woff');
 }
 
 
@@ -47,7 +47,6 @@
     --sub-text: #EFEFEF;
   }
 }
-
 
 * {
   box-sizing: border-box;
