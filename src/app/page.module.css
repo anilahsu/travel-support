@@ -103,3 +103,21 @@
   line-height: 24px;
 }
 
+.button {
+  background-color: var(--button-bg);
+  color: var(--main-text);
+  display: flex;
+  padding: 14px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+

@@ -19,7 +19,6 @@
        url('/fonts/NotoSansCJKjp-Bold.woff') format('woff');
 }
 
-
 :root {
   --max-width: 1100px;
   --font-notoJP: 'Noto Sans CJK JP', ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -29,9 +28,11 @@
   --background: #EFEFEF; 
   --foreground: #FFFFFF;
   --button-bg: #EFEFEF;
+  --button-hover-bg: #D7D7D7;
   --main-text: #222222;
   --sub-text: #767676;
-}
+  }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -42,7 +43,8 @@
     --tab-bg: #2D2D2D;
     --background: #222222; 
     --foreground: #434343;
-    --button-bg: #EFEFEF;
+    --button-bg: #222222;
+    --button-hover-bg: #1F1F1F;
     --main-text: #FFFFFF;
     --sub-text: #EFEFEF;
   }
@@ -52,7 +54,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: var(--font-notoJP)
+  font-family: var(--font-notoJP);
 }
 
 html,
@@ -76,3 +78,4 @@ body {
     color-scheme: dark;
   }
 }
+

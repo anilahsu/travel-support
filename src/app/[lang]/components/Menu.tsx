@@ -37,6 +37,13 @@ const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
           </div>
         );
       })}
+      {dictionary.buttons.map((buttonText, index) => {
+        return (
+          <div key={index} className={styles.button}>
+            {buttonText}
+          </div>
+        );
+      })}
     </div>
   );
 };
