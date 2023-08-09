@@ -1,7 +1,11 @@
 import Image from "next/image";
-import styles from "../page.module.css";
+import styles from "@/app/page.module.css";
 import { getDictionary } from "@/get-dictionary";
-import { Locale } from '@/i18n-config'
+import { Locale } from "@/i18n-config";
+import Header from "./components/Header";
+import Menu from "./components/Menu";
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 export default async function Home({
   params: { lang },
@@ -12,8 +16,13 @@ export default async function Home({
 
   return (
     <main className={styles.main}>
+      <div className={styles.container}>
+        <Header dictionary={dictionary} />
+        <Banner dictionary={dictionary} />
+        <Menu dictionary={dictionary} />
+      </div>
+
       <p>Current locale: {lang}</p>
-      {dictionary.logo.alt}
     </main>
   );
 }
