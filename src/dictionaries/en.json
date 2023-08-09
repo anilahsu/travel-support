@@ -28,5 +28,6 @@
   ],
   "chevron": {
     "alt": "chevron right icon"
-  }
+  },
+  "buttons": ["Terms of Use", "Privacy Policy"]
 }

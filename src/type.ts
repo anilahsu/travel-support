@@ -19,4 +19,5 @@ export type Dictionary = {
   chevron: {
     alt: string;
   };
+  buttons: string[];
 };
