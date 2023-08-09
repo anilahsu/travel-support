@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.imageWrapper {
+  display: flex;
+}
+
 .logo {
   width: 150px;
   height: 24px;
