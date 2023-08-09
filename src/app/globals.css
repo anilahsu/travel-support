@@ -29,6 +29,7 @@
   --foreground: #FFFFFF;
   --button-bg: #EFEFEF;
   --button-hover-bg: #D7D7D7;
+  --border: #EFEFEF;
   --main-text: #222222;
   --sub-text: #767676;
   }
@@ -45,6 +46,7 @@
     --foreground: #434343;
     --button-bg: #222222;
     --button-hover-bg: #1F1F1F;
+    --border: #434343;
     --main-text: #FFFFFF;
     --sub-text: #EFEFEF;
   }

@@ -20,6 +20,7 @@ export default async function Home({
         <Banner dictionary={dictionary} />
         <div className={styles.innerContainer}>
           <Menu dictionary={dictionary} />
+          <div className={styles.borderLine} />
         </div>
       </div>
       <p>Current locale: {lang}</p>

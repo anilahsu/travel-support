@@ -120,4 +120,8 @@
   background-color: var(--button-hover-bg);
 }
 
+.borderLine {
+  border-top: 1px solid var(--border);
+  margin: 40px 0;
+}
 
