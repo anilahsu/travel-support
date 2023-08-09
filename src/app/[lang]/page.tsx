@@ -5,7 +5,6 @@ import { Locale } from "@/i18n-config";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Banner from "./components/Banner";
-import Footer from "./components/Footer";
 
 export default async function Home({
   params: { lang },
@@ -19,9 +18,10 @@ export default async function Home({
       <div className={styles.container}>
         <Header dictionary={dictionary} />
         <Banner dictionary={dictionary} />
-        <Menu dictionary={dictionary} />
+        <div className={styles.innerContainer}>
+          <Menu dictionary={dictionary} />
+        </div>
       </div>
-
       <p>Current locale: {lang}</p>
     </main>
   );
