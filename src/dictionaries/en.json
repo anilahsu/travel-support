@@ -15,7 +15,8 @@
         "alt": "Book icon for user guide"
       },
       "title": "User Guide",
-      "description": "Instructions on how to use Pocket Change"
+      "description": "Instructions on how to use Pocket Change",
+      "link": "https://gbvpj.hp.peraichi.com/?_ga=2.213484183.2005926275.1634694842-1564750635.1618794623"
     },
     {
       "icon": {
@@ -23,11 +24,20 @@
         "alt": "Mail icon for email support"
       },
       "title": "Email Support",
-      "description": "Contact Pocket Change's support via email"
+      "description": "Contact Pocket Change's support via email",
+      "link": "mailto:info%40pocket-change.jp?subject=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E9%9A%9C%E5%AE%B3%E5%A0%B1%E5%91%8A&body=%E9%9A%9C%E5%AE%B3%E7%99%BA%E7%94%9F%E6%97%A5%E6%99%82%EF%BC%9A%0D%0A%E9%9A%9C%E5%AE%B3%E5%86%85%E5%AE%B9%EF%BC%9A"
     }
   ],
   "chevron": {
     "alt": "chevron right icon"
   },
-  "buttons": ["Terms of Use", "Privacy Policy"]
+  "buttons": [
+    {
+      "text":"Terms of Use",
+      "link": "https://www.pocket-change.jp/en/terms/"
+    },
+    { "text":"Privacy Policy",
+      "link": "https://about.pocket-change.jp/legal/privacy-policy-en"
+    }
+  ]
 }

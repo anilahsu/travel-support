@@ -15,9 +15,13 @@ export type Dictionary = {
     };
     title: string;
     description: string;
+    link: string;
   }[];
   chevron: {
     alt: string;
   };
-  buttons: string[];
+  buttons: {
+    text: string;
+    link: string;
+  }[];
 };
