@@ -24,4 +24,8 @@ export type Dictionary = {
     text: string;
     link: string;
   }[];
+  footerButtons: {
+    text: string;
+    link: string;
+  }[];
 };

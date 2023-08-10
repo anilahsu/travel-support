@@ -40,5 +40,15 @@
       "text": "プライバシーポリシー",
       "link": "https://about.pocket-change.jp/legal/privacy-policy"
     }
+  ],
+  "footerButtons": [
+    {
+      "text": "運営会社",
+      "link": "https://about.pocket-change.jp"
+    },
+    {
+      "text": "サービス紹介",
+      "link": "https://www.pocket-change.jp/ja/"
+    }
   ]
 }
