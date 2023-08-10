@@ -6,7 +6,7 @@ import { Dictionary } from "@/type";
 
 const Logo = ({ dictionary }: { dictionary: Dictionary }) => {
   return (
-    <picture className={styles.imageWrapper}>
+    <picture className={styles.imageThemeWrapper}>
       <source srcSet={logoDarkMode.src} media="(prefers-color-scheme: dark)" />
       <Image src={logo} alt={dictionary.logo.alt} className={styles.logo} />
     </picture>

@@ -10,7 +10,7 @@ const Header = ({ dictionary }: { dictionary: Dictionary }) => {
     <div className={styles.header}>
       <Logo dictionary={dictionary} />
       <div className={styles.langButton}>
-        <picture className={styles.imageWrapper}>
+        <picture className={styles.imageThemeWrapper}>
           <source
             srcSet={globeIconDarkMode.src}
             media="(prefers-color-scheme: dark)"
