@@ -30,6 +30,7 @@
   --button-bg: #EFEFEF;
   --button-hover-bg: #D7D7D7;
   --border: #EFEFEF;
+  --footer-button-bg: #E5E5E5;
   --main-text: #222222;
   --sub-text: #767676;
   }
@@ -47,6 +48,7 @@
     --button-bg: #222222;
     --button-hover-bg: #1F1F1F;
     --border: #434343;
+    --footer-button-bg: #3C3C3C;
     --main-text: #FFFFFF;
     --sub-text: #EFEFEF;
   }

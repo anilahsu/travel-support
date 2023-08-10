@@ -134,6 +134,33 @@
   width: 100%;
 }
 
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.footerLogoWrapper {
+  padding: 16px 0;
+}
+
+.footerButton {
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 100%;
+  border-radius: 24px;
+  color: var(--main-text);
+  text-align: center;
+}
+
+.footerButton:hover {
+  background-color: var(--footer-button-bg);
+}
 
 @media (max-width: 480px) {
   .main {
