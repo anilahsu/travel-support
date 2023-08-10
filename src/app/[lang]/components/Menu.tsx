@@ -3,13 +3,14 @@ import styles from "@/app/page.module.css";
 import { Dictionary } from "@/type";
 import chevron from "/public/images/chevron.svg";
 import chevronDarkMode from "/public/images/chevron-dark-mode.svg";
+import Link from "next/link";
 
 const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
   return (
     <div className={styles.menuContainer}>
       {dictionary.menuList.map((item, index) => {
         return (
-          <div key={index} className={styles.menuItem}>
+          <Link key={index} href={item.link} className={styles.menuItem}>
             <div className={styles.menuContent}>
               <span className={styles.iconContainer}>
                 <Image
@@ -22,7 +23,7 @@ const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
               <p className={styles.itemTitle}>{item.title}</p>
               <p className={styles.itemDescription}>{item.description}</p>
             </div>
-            <picture className={styles.imageWrapper}>
+            <picture className={styles.imageThemeWrapper}>
               <source
                 srcSet={chevronDarkMode.src}
                 media="(prefers-color-scheme: dark)"
@@ -34,14 +35,14 @@ const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
                 height={24}
               />
             </picture>
-          </div>
+          </Link>
         );
       })}
-      {dictionary.buttons.map((buttonText, index) => {
+      {dictionary.buttons.map((button, index) => {
         return (
-          <div key={index} className={styles.button}>
-            {buttonText}
-          </div>
+          <Link key={index} href={button.link} className={styles.button}>
+            {button.text}
+          </Link>
         );
       })}
     </div>
