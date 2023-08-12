@@ -12,7 +12,7 @@ export default async function Home({
   params: { lang: Locale };
 }) {
   const dictionary = await getDictionary(lang);
-
+  
   return (
     <main className={styles.main}>
       <div className={styles.container}>
@@ -22,6 +22,9 @@ export default async function Home({
           <Menu dictionary={dictionary} />
           <div className={styles.borderLine} />
           <Footer dictionary={dictionary} />
+          <div className={styles.copyright}>
+            Copyright © Pocket Change Inc. All Rights Reserved.
+          </div>
         </div>
       </div>
     </main>

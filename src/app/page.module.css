@@ -43,6 +43,7 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 20px; 
+  cursor: pointer;
 }
 
 .banner {
@@ -160,6 +161,13 @@
 
 .footerButton:hover {
   background-color: var(--footer-button-bg);
+}
+
+.copyright {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--sub-text);
 }
 
 @media (max-width: 480px) {
