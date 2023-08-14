@@ -8,7 +8,7 @@ import Link from "next/link";
 const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
   return (
     <div className={styles.menuContainer}>
-      {dictionary.menuList.map((item, index) => {
+      {dictionary && dictionary.menuList.map((item, index) => {
         return (
           <Link key={index} href={item.link} className={styles.menuItem}>
             <div className={styles.menuContent}>
@@ -38,7 +38,7 @@ const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
           </Link>
         );
       })}
-      {dictionary.buttons.map((button, index) => {
+      {dictionary && dictionary.buttons.map((button, index) => {
         return (
           <Link key={index} href={button.link} className={styles.button}>
             {button.text}

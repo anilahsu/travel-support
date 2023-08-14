@@ -8,7 +8,7 @@ const Banner = ({ dictionary }: { dictionary: Dictionary }) => {
     <div className={styles.banner}>
       <Image
         src={kiosk}
-        alt={dictionary.kioskImage.alt}
+        alt={dictionary ? dictionary.kioskImage.alt : ""}
         className={styles.kioskImage}
       />
     </div>

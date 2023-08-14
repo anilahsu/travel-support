@@ -9,13 +9,18 @@ const Footer = ({ dictionary }: { dictionary: Dictionary }) => {
       <div className={styles.footerLogoWrapper}>
         <Logo dictionary={dictionary} />
       </div>
-      {dictionary.footerButtons.map((button, index) => {
-        return(
-          <Link key={index} href={button.link} className={styles.footerButton}>
-            {button.text}
-          </Link>
-        )
-      })}
+      {dictionary &&
+        dictionary.footerButtons.map((button, index) => {
+          return (
+            <Link
+              key={index}
+              href={button.link}
+              className={styles.footerButton}
+            >
+              {button.text}
+            </Link>
+          );
+        })}
     </div>
   );
 };

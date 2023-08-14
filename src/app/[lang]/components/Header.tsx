@@ -5,11 +5,17 @@ import globeIconDarkMode from "/public/images/globe-dark-mode.svg";
 import { Dictionary } from "@/type";
 import Logo from "./Logo";
 
-const Header = ({ dictionary }: { dictionary: Dictionary }) => {
+const Header = ({
+  dictionary,
+  onClick,
+}: {
+  dictionary: Dictionary;
+  onClick: () => void;
+}) => {
   return (
     <div className={styles.header}>
       <Logo dictionary={dictionary} />
-      <div className={styles.langButton}>
+      <div className={styles.langButton} onClick={onClick}>
         <picture className={styles.imageThemeWrapper}>
           <source
             srcSet={globeIconDarkMode.src}
@@ -17,7 +23,7 @@ const Header = ({ dictionary }: { dictionary: Dictionary }) => {
           />
           <Image
             src={globeIcon}
-            alt={dictionary.globeIcon.alt}
+            alt={dictionary ? dictionary.globeIcon.alt : ""}
             width={20}
             height={20}
           />

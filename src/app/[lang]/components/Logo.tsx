@@ -8,7 +8,11 @@ const Logo = ({ dictionary }: { dictionary: Dictionary }) => {
   return (
     <picture className={styles.imageThemeWrapper}>
       <source srcSet={logoDarkMode.src} media="(prefers-color-scheme: dark)" />
-      <Image src={logo} alt={dictionary.logo.alt} className={styles.logo} />
+      <Image
+        src={logo}
+        alt={dictionary ? dictionary.logo.alt : ""}
+        className={styles.logo}
+      />
     </picture>
   );
 };
