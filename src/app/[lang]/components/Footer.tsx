@@ -11,25 +11,23 @@ const Footer = ({ dictionary }: { dictionary: Dictionary }) => {
       <div className={styles.footerLogoWrapper}>
         <Logo dictionary={dictionary} />
       </div>
-
-        {dictionary ? (
-          dictionary.footerButtons.map((button, index) => {
-            return (
-              <Link
-                key={index}
-                href={button.link}
-                className={styles.footerButton}
-              >
-                {button.text}
-              </Link>
-            );
-          })
-        ) : (
-          <div className={styles.footerButtonSkeleton}>
-            <Skeleton height={48} count={2} />
-          </div>
-        )}
-
+      {dictionary ? (
+        dictionary.footerButtons.map((button, index) => {
+          return (
+            <Link
+              key={index}
+              href={button.link}
+              className={styles.footerButton}
+            >
+              {button.text}
+            </Link>
+          );
+        })
+      ) : (
+        <div className={styles.footerButtonSkeleton}>
+          <Skeleton height={48} count={2} />
+        </div>
+      )}
     </div>
   );
 };
