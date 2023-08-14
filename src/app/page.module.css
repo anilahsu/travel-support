@@ -160,6 +160,10 @@
   text-align: center;
 }
 
+.footerButtonSkeleton {
+  width: 100%;
+}
+
 .footerButton:hover {
   background-color: var(--footer-button-bg);
 }
