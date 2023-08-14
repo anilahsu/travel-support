@@ -42,7 +42,7 @@ const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
           );
         })
       ) : (
-        <Skeleton height={152} count={2} />
+        <Skeleton height={158} count={2} />
       )}
       {dictionary ? (
         dictionary.buttons.map((button, index) => {
@@ -53,7 +53,7 @@ const Menu = ({ dictionary }: { dictionary: Dictionary }) => {
           );
         })
       ) : (
-        <Skeleton height={48} count={2} />
+        <Skeleton height={58} count={2} />
       )}
     </div>
   );
