@@ -175,6 +175,17 @@
   color: var(--sub-text);
 }
 
+.dialogContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .dialog {
   display: flex;
   width: 262px;
