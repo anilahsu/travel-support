@@ -170,6 +170,24 @@
   color: var(--sub-text);
 }
 
+.dialog {
+  display: flex;
+  width: 262px;
+  padding: 12px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--foreground);
+  border-radius: 24px;
+}
+
+.langItem {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  list-style: none;
+}
+
 @media (max-width: 480px) {
   .main {
   padding: 0;
