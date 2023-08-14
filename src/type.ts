@@ -28,4 +28,4 @@ export type Dictionary = {
     text: string;
     link: string;
   }[];
-};
+}| null;
