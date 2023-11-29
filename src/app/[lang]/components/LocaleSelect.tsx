@@ -3,16 +3,19 @@
 import styles from "@/app/page.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { i18n } from "../../../i18n-config";
+import { Locale, i18n } from "../../../i18n-config";
 
 const langSelector = {
-  ja: "Japanese/日本語",
-  en: "English/英語",
+  ja: "日本語",
+  en: "English",
+  zn: "简体中文",
+  tw: "繁體中文",
+  ko: "한국어",
 };
 
 export default function LocaleSelect({ onClick }: { onClick: () => void }) {
   const pathName = usePathname();
-  const redirectedPathName = (locale: string) => {
+  const redirectedPathName = (locale: Locale) => {
     if (!pathName) return "/";
     const segments = pathName.split("/");
     segments[1] = locale;
@@ -20,14 +23,14 @@ export default function LocaleSelect({ onClick }: { onClick: () => void }) {
   };
   return (
     <div className={styles.dialog}>
-      <ul>
+      <ul className={styles.langItemContainer}>
         {i18n.locales.map((locale) => {
           return (
-            <li key={locale} className={styles.langItem} onClick={onClick}>
-              <Link href={redirectedPathName(locale)}>
+            <Link key={locale} href={redirectedPathName(locale)}>
+              <li className={styles.langItem} onClick={onClick}>
                 {langSelector[locale]}
-              </Link>
-            </li>
+              </li>
+            </Link>
           );
         })}
       </ul>
