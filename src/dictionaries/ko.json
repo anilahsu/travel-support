@@ -1,0 +1,54 @@
+{
+  "logo": {
+    "alt": "Pocket Change 로고"
+  },
+  "globeIcon": {
+    "alt": "언어 선택을 위한 지구본 아이콘"
+  },
+  "kioskImage": {
+    "alt": "Pocket Change 키오스크"
+  },
+  "menuList": [
+    {
+      "icon": {
+        "src": "/images/book.svg",
+        "alt": "사용자 가이드의 책 아이콘"
+      },
+      "title": "사용 가이드",
+      "description": "Pocket Change 사용 방법 설명",
+      "link": "https://gbvpj.hp.peraichi.com/?_ga=2.213484183.2005926275.1634694842-1564750635.1618794623"
+    },
+    {
+      "icon": {
+        "src": "/images/mail.svg",
+        "alt": "이메일 지원을 위한 메일 아이콘"
+      },
+      "title": "지원 센터에 이메일 보내기",
+      "description": "Pocket Change 고객 지원에 이메일로 연락하기",
+      "link": "mailto:info%40pocket-change.jp?subject=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E9%9A%9C%E5%AE%B3%E5%A0%B1%E5%91%8A&body=%E9%9A%9C%E5%AE%B3%E7%99%BA%E7%94%9F%E6%97%A5%E6%99%82%EF%BC%9A%0D%0A%E9%9A%9C%E5%AE%B3%E5%86%85%E5%AE%B9%EF%BC%9A"
+    }
+  ],
+  "chevron": {
+    "alt": "셰브론 오른쪽 아이콘"
+  },
+  "buttons": [
+    {
+      "text": "이용 규약",
+      "link": "https://www.pocket-change.jp/ja/terms/"
+    },
+    {
+      "text": "개인 정보 보호 정책",
+      "link": "https://about.pocket-change.jp/legal/privacy-policy"
+    }
+  ],
+  "footerButtons": [
+    {
+      "text": "운영 회사",
+      "link": "https://about.pocket-change.jp"
+    },
+    {
+      "text": "서비스 소개",
+      "link": "https://www.pocket-change.jp/ja/"
+    }
+  ]
+}

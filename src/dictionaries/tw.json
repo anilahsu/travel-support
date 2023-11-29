@@ -1,0 +1,54 @@
+{
+  "logo": {
+    "alt": "Pocket Change 商標"
+  },
+  "globeIcon": {
+    "alt": "言語選用於語言選擇的地球圖標"
+  },
+  "kioskImage": {
+    "alt": "Pocket Change 亭"
+  },
+  "menuList": [
+    {
+      "icon": {
+        "src": "/images/book.svg",
+        "alt": "使用者指南的書本圖標"
+      },
+      "title": "使用指南",
+      "description": "Pocket Change 的使用方法說明",
+      "link": "https://gbvpj.hp.peraichi.com/?_ga=2.213484183.2005926275.1634694842-1564750635.1618794623"
+    },
+    {
+      "icon": {
+        "src": "/images/mail.svg",
+        "alt": "用於電子郵件支援的郵件圖標"
+      },
+      "title": "來信諮詢",
+      "description": "以電子郵件聯絡Pocket Change的支援團隊",
+      "link": "mailto:info%40pocket-change.jp?subject=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%81%E3%82%A7%E3%83%B3%E3%82%B8%E9%9A%9C%E5%AE%B3%E5%A0%B1%E5%91%8A&body=%E9%9A%9C%E5%AE%B3%E7%99%BA%E7%94%9F%E6%97%A5%E6%99%82%EF%BC%9A%0D%0A%E9%9A%9C%E5%AE%B3%E5%86%85%E5%AE%B9%EF%BC%9A"
+    }
+  ],
+  "chevron": {
+    "alt": "V 形右圖示"
+  },
+  "buttons": [
+    {
+      "text": "使用規約",
+      "link": "https://www.pocket-change.jp/ja/terms/"
+    },
+    {
+      "text": "隱私權政策",
+      "link": "https://about.pocket-change.jp/legal/privacy-policy"
+    }
+  ],
+  "footerButtons": [
+    {
+      "text": "經營企業",
+      "link": "https://about.pocket-change.jp"
+    },
+    {
+      "text": "服務介紹",
+      "link": "https://www.pocket-change.jp/ja/"
+    }
+  ]
+}
