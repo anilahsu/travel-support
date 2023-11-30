@@ -8,7 +8,7 @@ import { Locale, i18n } from "../../../i18n-config";
 const langSelector = {
   ja: "日本語",
   en: "English",
-  zn: "简体中文",
+  cn: "简体中文",
   tw: "繁體中文",
   ko: "한국어",
 };
